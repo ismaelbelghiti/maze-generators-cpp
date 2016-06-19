@@ -92,7 +92,7 @@ that corresponds to the following maze:
 vector< vector<int> > rand_maze(int nbLines, int nbCols);
 ```
 
-Draw a connected acyclic maze uniformly, using Wilson's algorithm. Can be
+Returns a connected acyclic maze drawn uniformly, using Wilson's algorithm. Can be
 quite slow for big dimensions.
 
 <p align="center">
