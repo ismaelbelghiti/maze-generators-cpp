@@ -5,7 +5,4 @@ algorithms under a small and simple header-only libray.
 To start creating cool mazes as the one below, just include
 the header *maze_generators.h* and have a look on this doc !
 
-![Maze Example]
-(https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/maze_example.png)
-
-<img align="center" src="https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/maze_example.png" alt="Maze Example">
+<img align="middle" src="https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/maze_example.png" alt="Maze Example">
