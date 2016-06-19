@@ -1,0 +1,3 @@
+[submodule "combinatorial-generators-cpp"]
+	path = combinatorial-generators-cpp
+	url = https://github.com/ismaelbelghiti/combinatorial-generators-cpp
