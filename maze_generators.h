@@ -29,7 +29,7 @@ std::vector< std::pair<int,int> > maze_edges(int nbLines, int nbCols) {
 
 /*
   This function is used to convert back a grid-graph subset of 
-  edges to a maze. The result can be read as follows:
+  edges to a maze. Noting res the result, it can be read as follows:
   - there is a wall between cell (iLine, iCol) and cell (iLine, iCol + 1) 
     when (res[iLine][iCol] & 1) == 0,
   - there is a wall between cell (iLine, iCol) and cell (iLine + 1, iCol) 
