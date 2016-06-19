@@ -24,3 +24,43 @@ Remark: The walls seperating the grid cells  from outside are implicit, only
 the ones separating two celles of the grid are explicited. Please also note 
 that operator & has not priority on operator == (that is why we use parentheses 
 in the previous expressions).
+
+# A complete example
+
+```cpp
+#include <iostream>
+#include "maze_generators.h"
+using namespace std;
+ 
+int main() {
+	int nbLines = 8, nbCols = 9;
+ 
+	vector< vector<int> > maze = rand_maze(nbLines,nbCols);
+ 
+	for(int iLine = 0; iLine < nbLines; iLine++) {
+		for(int iCol = 0; iCol < nbCols; iCol++) {
+			cout << maze[iLine][iCol] << " ";
+		}
+		cout << endl;
+	}
+	
+	return 0;
+}
+```
+
+This programs displays:
+```
+1 1 3 1 1 1 3 1 0 
+2 2 3 3 0 2 2 1 2 
+1 2 2 1 2 3 2 2 2 
+1 3 3 0 0 2 1 1 0 
+2 0 3 0 1 2 2 2 2 
+2 3 0 3 1 1 1 3 2 
+3 3 0 3 3 2 3 0 2 
+0 0 1 0 0 0 0 1 0
+```
+
+corresponding to the following maze:
+<p align="center">
+  <img src="https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/maze_example.png?raw=true" alt="rand_maze example"/>
+</p>
