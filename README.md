@@ -3,23 +3,29 @@
 This project aims to provide a variety of beautiful maze generation
 algorithms under a small and simple header-only library.
 To start creating cool mazes as the one below, just include
-the header *maze_generators.h* and have a look on this doc !
+the header *maze_generators.h* and have a look on this doc:
+- [Features](#features)
+- [Output format](#output_format)
+- [A complete example](#)
+- [Detailed descriptions](#detailed_descriptions)
 
 <p align="center">
   <img src="https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/maze_example.png?raw=true" alt="Maze Example"/>
 </p>
 
+<a name="features"></a>
 # Features
 
 Here is the list of all functions proposed by the library.
 You can click on a function name to be redirected
-to the detailed descriptions (below on this page).
+to the detailed description (below on this page).
 
 
 For the generation of random connected acyclic mazes:
-- *vector< vector< int > > rand_maze(int nbLines, int nbCols);*
+- *vector< vector< int > > [rand_maze](#rand_maze)(int nbLines, int nbCols);*
 
-# Output Format
+<a name="output_format"></a>
+# Output format
 
 All the functions of this library, except *convert_to_block_maze*, return a
 *vector< vector< int > >* representing the generated maze.
@@ -35,6 +41,7 @@ the ones separating two celles of the grid are explicited. Please also note
 that operator & has not priority on operator == (that is why we use parentheses 
 in the previous expressions).
 
+<a name="complete_example"></a>
 # A complete example
 
 ```cpp
@@ -75,8 +82,10 @@ that corresponds to the following maze:
   <img src="https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/example_output.png?raw=true" alt="rand_maze example"/>
 </p>
 
-# Detailed Descriptions
+<a name="detailed_descriptions"></a>
+# Detailed descriptions
 
+<a name="rand_maze"></a>
 ## rand_maze
 
 ```cpp
