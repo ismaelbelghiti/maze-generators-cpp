@@ -6,7 +6,7 @@ To start creating cool mazes as the one below, just include
 the header *maze_generators.h* and have a look on this doc:
 - [Features](#features)
 - [Output format](#output_format)
-- [A complete example](#)
+- [A complete example](#complete_example)
 - [Detailed descriptions](#detailed_descriptions)
 
 <p align="center">
