@@ -9,6 +9,16 @@ the header *maze_generators.h* and have a look on this doc !
   <img src="https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/maze_example.png?raw=true" alt="Maze Example"/>
 </p>
 
+# Features
+
+Here is the list of all functions proposed by the library.
+You can click on a function name to be redirected
+to the detailed descriptions (below on this page).
+
+
+For the generation of random connected acyclic mazes:
+- *vector< vector< int > > rand_maze(int nbLines, int nbCols);*
+
 # Output Format
 
 All the functions of this library, except *convert_to_block_maze*, return a
@@ -64,3 +74,22 @@ that corresponds to the following maze:
 <p align="center">
   <img src="https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/example_output.png?raw=true" alt="rand_maze example"/>
 </p>
+
+# Detailed Descriptions
+
+## rand_maze
+
+```cpp
+vector< vector<int> > rand_maze(int nbLines, int nbCols);
+```
+
+Draw a connected acyclic maze uniformly, using Wilson's algorithm. Can be
+quite slow for big dimensions.
+
+<p align="center">
+  <img src="https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/rand_maze_example.png?raw=true" alt="rand_maze example"/>
+</p>
+
+
+
+
