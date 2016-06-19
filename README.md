@@ -17,7 +17,7 @@ Noting *res* this result, the following conventions are used:
 - there is a wall between cell (iLine, iCol) and cell (iLine, iCol + 1) 
 when *(res[iLine][iCol] & 1) == 0*,
 
- - there is a wall between cell (iLine, iCol) and cell (iLine + 1, iCol) 
+- there is a wall between cell (iLine, iCol) and cell (iLine + 1, iCol) 
 when *(res[iLine][iCol] & 2) == 0*.
 
 Remark: The walls seperating the grid cells  from outside are implicit, only
