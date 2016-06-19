@@ -1,7 +1,7 @@
 # Presentation
 
 This project aims to provide a variety of beautiful maze generation
-algorithms under a small and simple header-only libray.
+algorithms under a small and simple header-only library.
 To start creating cool mazes as the one below, just include
 the header *maze_generators.h* and have a look on this doc !
 
