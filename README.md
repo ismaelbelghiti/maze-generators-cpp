@@ -62,5 +62,5 @@ This programs displays
 
 that corresponds to the following maze:
 <p align="center">
-  <img src="https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/maze_example.png?raw=true" alt="rand_maze example"/>
+  <img src="https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/example_output.png?raw=true" alt="rand_maze example"/>
 </p>
