@@ -48,7 +48,7 @@ int main() {
 }
 ```
 
-This programs displays:
+This programs displays
 ```
 1 1 3 1 1 1 3 1 0 
 2 2 3 3 0 2 2 1 2 
@@ -60,7 +60,7 @@ This programs displays:
 0 0 1 0 0 0 0 1 0
 ```
 
-corresponding to the following maze:
+that corresponds to the following maze:
 <p align="center">
   <img src="https://github.com/ismaelbelghiti/maze-generators-cpp/blob/master/doc_images/maze_example.png?raw=true" alt="rand_maze example"/>
 </p>
